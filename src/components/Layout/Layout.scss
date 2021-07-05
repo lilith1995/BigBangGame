@@ -1,0 +1,11 @@
+.app-layout {
+    width: 100%;
+    height: 150vh;
+    background: radial-gradient(circle, #1f3756 0%, #141539 100%);
+
+    &__main {
+        width: 100%;
+        height: 100%;
+
+    }
+}

@@ -1,0 +1,20 @@
+.modal-button {
+    border: 3px solid #cbd9f0;
+    border-radius: 6px;
+    color: #97a2b4;
+    text-transform: uppercase;
+    transition: 0.2s;
+    cursor: pointer;
+    padding: 6px 20px;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: flex;
+    margin-right: 10px;
+
+    &:hover {
+      background-color: rgba(234, 233, 247, 0.8);
+      color: #787e97;
+    }
+  }

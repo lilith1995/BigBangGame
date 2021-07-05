@@ -1,0 +1,21 @@
+.game-option {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 12px solid;
+    border-color: #374169;
+    margin: 15px;
+
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    &__icon-container {
+        border-radius: 50%;
+        
+    }
+}
